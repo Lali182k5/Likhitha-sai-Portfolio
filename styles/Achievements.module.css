@@ -1,0 +1,68 @@
+.achievementsSection {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  scroll-margin-top: 80px; /* for fixed nav spacing */
+  background: #fff; /* Same as contactSection */
+  color: #333;      /* Ensures consistent text color */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow like contact */
+}
+
+.achievementsSection h2 {
+  font-size: 2.5rem;
+  color: #743dbd;
+  margin-bottom: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.achievementList {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.achievementCard {
+  background: #f6f4ff; /* Matches infoItem and form backgrounds in contact.css */
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(159, 75, 239, 0.2); /* Purple glow like contact */
+  transition: transform 0.3s;
+}
+
+.achievementCard:hover {
+  transform: translateY(-5px);
+}
+
+.achievementCard h3 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  color: #9333ea; /* Slightly more vivid, matching contact highlight */
+}
+
+.achievementCard p {
+  margin: 0 0 8px;
+  color: #5c5b5b;
+}
+
+.achievementCard span {
+  font-size: 0.9rem;
+  color: #302f2f;
+}
+
+.credentialLink {
+  display: inline-block;
+  margin-top: 12px;
+  color: #6d28d9; /* Matches .link in contact */
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.credentialLink:hover {
+  color: #5b21b6;
+}

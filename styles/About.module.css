@@ -1,0 +1,43 @@
+.aboutSection {
+  background-color: #f7f7f7;
+  padding: 4rem 2rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.aboutSection h2 {
+   font-size: 2.5rem;
+  color: #743dbd;
+  margin-bottom: 40px;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.aboutCard {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 6px 18px rgba(79, 70, 229, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 2px solid transparent;
+  text-align: center; /* Ensuring all text inside is centered */
+}
+.section {
+  padding: 80px 20px;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  box-shadow: 0 6px 18px rgba(79, 70, 229, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.aboutCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(79, 70, 229, 0.2);
+  border: 2px solid #c7d2fe;
+  background: linear-gradient(to bottom right, #ffffff, #f3f4ff);
+  text-align: center
+}
+

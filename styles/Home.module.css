@@ -1,0 +1,87 @@
+.homeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 4rem 2rem;
+  background-color: #f7f7f7;
+}
+
+.gap {
+  height: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(146, 9, 220, 0.1);
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+.avatarContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.frame {
+  border: 2px dashed #ccc;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.placeholder {
+  color: #888;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #4b0082;
+  margin-top: 1rem;
+}
+
+.description {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.8rem;
+  line-height: 1.6;
+}
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.socialIcons a {
+  color: #6b21a8;
+  transition: transform 0.2s, color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #9333ea;
+  transform: scale(1.2);
+}
